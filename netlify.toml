@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/.well-known/lnurlp/jose"
+  to = "/.netlify/functions/redirect-to-lightning"
+  status = 200
+
+[[redirects]]
+  from = "/.netlify/functions/redirect-to-lightning"
+  to = "https://lightning.josemoranurena.tech/.well-known/lnurlp/jose"
+  status = 200
+  force = true
