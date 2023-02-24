@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/.well-known/lnurlp/jose"
-  to = "https://josemoranurena.tech/functions/redirect-to-lightning"
+  to = "https://josemoranurena.eu.org/.well-known/lnurlp/jose"
   status = 200
