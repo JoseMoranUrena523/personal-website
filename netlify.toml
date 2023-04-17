@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/.well-known/lnurlp/jose"
-  to = "https://josemoranurena.eu.org/.well-known/lnurlp/jose"
+  from = "/lnurlp/callback"
+  to = "https://getalby.com/lnurlp/jmuofficial/callback"
   status = 200
