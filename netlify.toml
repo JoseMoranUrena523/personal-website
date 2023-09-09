@@ -5,4 +5,4 @@
 [[redirects]]
   from = "/ads.txt"
   to = "https://srv.adstxtmanager.com/57092/josemoranurena.tech"
-  status = 301
+  status = 200
