@@ -2,3 +2,7 @@
   from = "/callback"
   to = "https://getalby.com/lnurlp/jmuofficial/callback"
   status = 200
+[[redirects]]
+  from = "/ads.txt"
+  to = "https://srv.adstxtmanager.com/57092/josemoranurena.tech"
+  status = 301
