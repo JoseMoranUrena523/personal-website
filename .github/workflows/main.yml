@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  s3Backup:
+  r2Backup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
