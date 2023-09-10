@@ -1,4 +1,4 @@
-name: S3 Backup
+name: R2 Backup
 on:
   push:
     branches:
@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: S3 Backup
-        uses: peter-evans/s3-backup@v1
+      - name: R2 Backup
+        uses: JoseMoranUrena/r2-backup@r2-backup
         env:
           ACCESS_KEY_ID: '203484521b5920bbcbc7fc7f02f19491'
-          MIRROR_TARGET: 'personal-website-storage'
+          BUCKET_NAME: 'personal-website-storage'
           SECRET_ACCESS_KEY: 'eb51e23c3a3036faa0fef68aaf081d5b988c3295c590ba0fe0fa7a1ecd311899'
-          STORAGE_SERVICE_URL: 'https://7c8d6e10d82240531424fe08f321556c.r2.cloudflarestorage.com'
+          ACCOUNT_ID: '7c8d6e10d82240531424fe08f321556c'
         with:
           args: --overwrite --remove
