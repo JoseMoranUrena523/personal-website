@@ -1,0 +1,8 @@
+- name: R2 Directory Synchronizer
+  uses: skymins04/r2-dir-upload@0.0.0.1
+  with:
+    accountid: "7c8d6e10d82240531424fe08f321556c"
+    accesskeyid: "203484521b5920bbcbc7fc7f02f19491"
+    secretaccesskey: "efe900c3d0a92fa182a2b75aa0dc184dac0b9540bc768078caf7594401f665fb"
+    bucket: "personal-website-storage"
+    source: "/"
