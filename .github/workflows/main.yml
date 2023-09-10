@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: R2 Backup
-        uses: JoseMoranUrena/r2-backup@r2-backup
+        uses: JoseMoranUrena523/r2-backup@r2-backup
         env:
           ACCESS_KEY_ID: '203484521b5920bbcbc7fc7f02f19491'
           BUCKET_NAME: 'personal-website-storage'
