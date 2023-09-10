@@ -16,4 +16,4 @@ jobs:
           SECRET_ACCESS_KEY: 'eb51e23c3a3036faa0fef68aaf081d5b988c3295c590ba0fe0fa7a1ecd311899'
           STORAGE_SERVICE_URL: 'https://7c8d6e10d82240531424fe08f321556c.r2.cloudflarestorage.com'
         with:
-          args: --acl public-read --follow-symlinks --delete --exclude '.git/*'
+          args: --overwrite --remove
