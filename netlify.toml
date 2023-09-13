@@ -6,3 +6,7 @@
   from = "/ads.txt"
   to = "https://srv.adstxtmanager.com/57092/josemoranurena.tech"
   status = 200
+[[redirects]]
+  from = "/foundation"
+  to = "https://jose-moran-urena.square.site"
+  status = 200
