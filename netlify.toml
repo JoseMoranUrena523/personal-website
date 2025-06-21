@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/callback"
-  to = "https://getalby.com/lnurlp/jmuofficial/callback"
-  status = 200
+  from = "/"
+  to = "https://haunt.gg/jmuofficial"
+  status = 301
