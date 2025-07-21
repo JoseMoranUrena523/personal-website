@@ -9,6 +9,11 @@
   status = 200
 
 [[redirects]]
+  from = "/documents/*"
+  to = "/documents/*.pdf"
+  status = 200
+
+[[redirects]]
   from = "/resume"
   to = "/resume.pdf"
   status = 200
