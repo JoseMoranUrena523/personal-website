@@ -1,9 +1,4 @@
 [[redirects]]
-  from = "/"
-  to = "https://haunt.gg/jmuofficial"
-  status = 301
-
-[[redirects]]
   from = "/bills/*"
   to = "/bills/*.html"
   status = 200
@@ -11,9 +6,4 @@
 [[redirects]]
   from = "/documents/*"
   to = "/documents/*.pdf"
-  status = 200
-
-[[redirects]]
-  from = "/resume"
-  to = "/resume.pdf"
   status = 200
