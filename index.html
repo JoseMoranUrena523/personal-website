@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Office of Jose Moran Urena</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Merriweather', serif; }
+    html { scroll-behavior: smooth; }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+    .fade-in.show { opacity: 1; transform: translateY(0); }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-white text-[#001871]">
+
+  <section class="relative h-screen">
+    <div class="absolute inset-0">
+      <img src="hero.jpeg" alt="U.S. Air Force C-17 aircraft on tarmac" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/15 to-transparent backdrop-blur-sm"></div>
+    </div>
+    <div class="relative z-10 h-full flex items-center fade-in">
+      <div class="ml-8 md:ml-24 max-w-lg flex flex-col items-start space-y-3">
+        <img src="logo.png" alt="Jose Moran Urena Logo" class="h-14">
+        <p class="text-base tracking-wide font-semibold leading-none">THE OFFICE <i>of</i></p>
+        <h1 class="uppercase text-4xl md:text-6xl font-extrabold tracking-tight leading-snug">Jose Moran Urena</h1>
+        <a href="#footer" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-lg font-semibold shadow mt-2 transition-transform duration-300 hover:scale-105">
+          Contact the Office
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 px-8 bg-white fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">A Future in the Skies</h2>
+      <p class="text-lg leading-relaxed max-w-3xl mx-auto">
+        Jose is a Cadet Staff Sergeant in the Civil Air Patrol, a student in Saunders Trades & Technical High School’s P-TECH ECC program, and an aviation enthusiast with a clear goal: to merge his passion for flight and leadership into a future at the United States Air Force Academy. His journey reflects discipline, teamwork, and a deep commitment to community service.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-blue-50 py-20 fade-in">
+    <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-3 gap-8 md:gap-12 items-start">
+      <div>
+        <h3 class="text-3xl font-bold mb-4">Civil Air Patrol Experience</h3>
+        <ul class="list-disc list-inside space-y-3 text-lg">
+          <li>Led as a Non-Commissioned Officer (NCO) developing leadership and aerospace knowledge.</li>
+          <li>Completed two orientation flights in a Cessna 182, practicing hands-on flight maneuvers.</li>
+          <li>Participated in a U.S. Air Force C-17 airlift at Stewart ANGB.</li>
+          <li>Engaged in STEM missions, emergency services, and aviation education.</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-6 rounded-xl shadow-lg">
+        <h4 class="text-2xl font-semibold mb-4">Mentor Endorsement</h4>
+        <p class="italic text-lg">“I’m confident you have a bright future in CAP and as a pilot.”</p>
+        <p class="mt-4 font-semibold">– Ginger Cutler, Civil Air Patrol Pilot</p>
+      </div>
+
+      <div class="flex justify-center">
+        <img src="jose-in-cap-uniform.jpeg" alt="Jose Moran Urena in Civil Air Patrol uniform" class="rounded-xl shadow-lg w-80 h-[300px] object-cover transition-transform duration-300 hover:scale-105">
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-20 px-8 fade-in">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">Aviation Journey</h2>
+        <p class="text-lg leading-relaxed mb-8">
+          From my first orientation flight to exploring complex maneuvers, every moment in the cockpit has built my confidence and fueled my dream of becoming a pilot.
+        </p>
+        <div class="bg-blue-50 p-6 rounded-xl shadow-lg max-w-xl">
+          <p class="italic text-lg">“Great job on today’s flight – I’m so glad you enjoyed it, and I can see your dedication paying off.”</p>
+          <p class="mt-4 font-semibold">– Ginger Cutler, Civil Air Patrol Pilot</p>
+        </div>
+      </div>
+      <div>
+        <img src="cessna-182.jpeg" alt="Civil Air Patrol Cessna 182 aircraft" class="rounded-xl shadow-lg w-full h-[300px] object-cover transition-transform duration-300 hover:scale-105">
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-blue-50 py-20 px-8 fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Education & Training</h2>
+      <div class="grid md:grid-cols-2 gap-12 text-left">
+        <div>
+          <h4 class="text-2xl font-semibold mb-2">Saunders Trades & Technical High School</h4>
+          <p>• Enrolled in Electronic & Computer Circuitry (ECC) Magnet.<br>
+             • Hands-on with Arduino, AutoCAD, 3D printing, oscilloscopes.<br>
+             • P-TECH program with dual college credit and industry certifications.</p>
+        </div>
+        <div>
+          <h4 class="text-2xl font-semibold mb-2">FEMA & NIMS Certifications</h4>
+          <p>Completed 8+ FEMA/ICS courses including:<br>
+             ICS-100, ICS-200, NIMS 700, NRF 800—gaining expertise in emergency response and disaster coordination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-20 fade-in">
+    <div class="max-w-6xl mx-auto px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">Entrepreneurship: JMU Solutions LLC</h2>
+      <p class="text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+        Founder of JMU Solutions LLC, a software development company specializing in backend automation, Discord bot development, and web-based tools. 
+        Launching publicly in 2026, JMU Solutions reflects Jose's vision of merging technology and service at a low cost.
+      </p>
+      <a href="https://jmusolutionsllc.com" target="_blank" class="inline-block bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full text-lg font-semibold shadow transition-transform duration-300 hover:scale-105">
+        Visit Company Site
+      </a>
+    </div>
+  </section>
+
+  <section class="bg-blue-50 py-20 px-8 fade-in">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">Skills & Honors</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="font-bold text-xl mb-2">Core Skills</h4>
+          <p>Aeronautical Knowledge • Aircraft Handling • Radio Comms • Time Management • Teamwork • Mission-Oriented Thinking</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h4 class="font-bold text-xl mb-2">Honors</h4>
+          <p>Wright Brothers Award • Certificate of Special Congressional Recognition • Aviation Merit Badge</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-white py-10 text-center">
+    <div class="flex justify-center gap-6 text-3xl mb-4">
+      <a href="https://discord.com/users/1175530120736428192" target="_blank" class="hover:text-red-400"><i class="fab fa-discord"></i></a>
+      <a href="https://www.roblox.com/users/1079174702/profile" target="_blank" class="hover:text-red-400">
+        <svg aria-hidden="true" focusable="false" data-prefix="fak" data-icon="roblox" class="svg-inline--fa fa-roblox link-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 1em; color: #001871; filter: brightness(1.2);">
+          <path fill="currentColor" d="M108.1 0L51 213l145.3 38.9 18.1-67.7 258.1 69.2 38.9-145.3zM297 327.2L38.9 258.1 0 403.4l403.4 108.1 57.1-213L315.2 259.6z"></path>
+        </svg>
+      </a>
+      <a href="https://linkedin.com/in/jose-moran-urena" target="_blank"><i class="fab fa-linkedin hover:text-red-500"></i></a>
+      <a href="mailto:jose@josemoranurena.tech"><i class="fas fa-envelope hover:text-red-500"></i></a>
+      <a href="https://github.com/JoseMoranUrena523"><i class="fab fa-github hover:text-red-500"></i></a>
+    </div>
+    <p class="uppercase text-lg tracking-widest mb-4">The Office of Jose Moran Urena</p>
+    <p class="text-sm">&copy; 2025 All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.2 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+</body>
+</html>
