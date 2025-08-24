@@ -1,4 +1,9 @@
 [[redirects]]
+  from = "/"
+  to = "https://haunt.gg/jmuofficial"
+  status = 301
+  
+[[redirects]]
   from = "/bills/*"
   to = "/bills/*.html"
   status = 200
