@@ -2,3 +2,8 @@
   from = "/"
   to = "https://haunt.gg/jmuofficial"
   status = 301
+
+[[redirects]]
+  from = "/capipedia"
+  to = "https://capipedia.cap.gov/wiki/User:JMoranUrena19"
+  status = 301
