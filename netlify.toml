@@ -4,6 +4,6 @@
   status = 301
 
 [[redirects]]
-  from = "/capipedia"
+  from = "/wiki"
   to = "https://capipedia.cap.gov/wiki/User:JMoranUrena19"
   status = 301
