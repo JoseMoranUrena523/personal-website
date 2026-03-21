@@ -71,14 +71,15 @@ export function getPaginationMeta(
  * Validate and normalize page number
  */
 export function normalizePage(page: number | string | undefined, maxPage: number): number {
+  const clampedMax = Math.max(1, maxPage);
   if (typeof page === "string") {
     const parsed = parseInt(page, 10);
     if (isNaN(parsed) || parsed < 1) return 1;
-    return Math.min(parsed, maxPage);
+    return Math.min(parsed, clampedMax);
   }
   if (typeof page === "number") {
     if (page < 1) return 1;
-    return Math.min(page, maxPage);
+    return Math.min(page, clampedMax);
   }
   return 1;
 }
