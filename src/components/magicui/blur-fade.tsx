@@ -2,9 +2,10 @@
 
 import { AnimatePresence, motion, useInView, Variants } from "motion/react";
 import { useRef } from "react";
+import type { ReactNode } from "react";
 
 interface BlurFadeProps {
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
   variant?: {
     hidden: { y: number };
