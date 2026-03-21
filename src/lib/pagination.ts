@@ -27,8 +27,12 @@ export function paginate<T>(
   options: PaginationOptions
 ): PaginationResult<T> {
   const { page, pageSize } = options;
+  if (pageSize <= 0) {
+    throw new Error(`pageSize must be greater than 0, received: ${pageSize}`);
+  }
   const totalItems = items.length;
-  const totalPages = Math.ceil(totalItems / pageSize);
+  // Clamp to at least 1 so consumers always get a valid page range
+  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
   const startIndex = (page - 1) * pageSize;
   const endIndex = startIndex + pageSize;
 
@@ -55,7 +59,11 @@ export function getPaginationMeta(
   options: PaginationOptions
 ) {
   const { page, pageSize } = options;
-  const totalPages = Math.ceil(totalItems / pageSize);
+  if (pageSize <= 0) {
+    throw new Error(`pageSize must be greater than 0, received: ${pageSize}`);
+  }
+  // Clamp to at least 1 so consumers always get a valid page range
+  const totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
 
   return {
     page,
@@ -71,14 +79,15 @@ export function getPaginationMeta(
  * Validate and normalize page number
  */
 export function normalizePage(page: number | string | undefined, maxPage: number): number {
+  const clampedMax = Math.max(1, maxPage);
   if (typeof page === "string") {
     const parsed = parseInt(page, 10);
     if (isNaN(parsed) || parsed < 1) return 1;
-    return Math.min(parsed, maxPage);
+    return Math.min(parsed, clampedMax);
   }
   if (typeof page === "number") {
     if (page < 1) return 1;
-    return Math.min(page, maxPage);
+    return Math.min(page, clampedMax);
   }
   return 1;
 }
