@@ -9,6 +9,8 @@ import Markdown from "react-markdown";
 import ContactSection from "@/components/section/contact-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
+import OrganizationsSection from "@/components/section/organizations-section";
+import AwardsSection from "@/components/section/awards-section";
 import { ArrowUpRight } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -107,18 +109,28 @@ export default function Page() {
         </div>
       </section>
       <section id="projects">
-        <BlurFade delay={BLUR_FADE_DELAY * 9}>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
           <ProjectsSection />
+        </BlurFade>
+      </section>
+      <section id="awards">
+        <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          <AwardsSection />
+        </BlurFade>
+      </section>
+      <section id="organizations">
+        <BlurFade delay={BLUR_FADE_DELAY * 13}>
+          <OrganizationsSection />
         </BlurFade>
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-4">
-          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <SectionHeading>Skills</SectionHeading>
           </BlurFade>
           <div className="flex flex-wrap gap-2">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 14 + id * 0.05}>
                 <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
                   {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>

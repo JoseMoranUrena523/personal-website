@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { MongoDBIcon } from "@/components/ui/svgs/mongodb";
+import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
@@ -11,7 +11,7 @@ const skills = [
   { name: "Next.js", icon: NextjsIconDark },
   { name: "TypeScript", icon: Typescript },
   { name: "Node.js", icon: Nodejs },
-  { name: "MongoDB", icon: MongoDBIcon },
+  { name: "PostgreSQL", icon: Postgresql },
 ] as const;
 
 const socialLinks = {
@@ -34,7 +34,7 @@ const socialLinks = {
     navbar: true,
   },
   Capipedia: {
-    name: "Capipedia",
+    name: "CAPipedia",
     url: "https://capipedia.cap.gov/wiki/User:JMoranUrena19",
     icon: Icons.capipedia,
     navbar: true,
@@ -51,18 +51,15 @@ export const DATA = {
   name: "Jose Moran Urena",
   initials: "JMU",
   url: "https://josemoranurena.tech",
-  location: "Yonkers, NY",
-  locationLink: "https://www.google.com/maps/place/Yonkers",
   description:
-    "Student developer and founder focused on building practical software solutions and learning aviation.",
+    "Former Civil Air Patrol cadet and founder of JMU Solutions LLC, focused on software development and aviation.",
   summary:
-    "I am a high school student at Saunders Trades & Technical High School with dual enrollment at Embry-Riddle Aeronautical University, focused on software development and aviation. I founded JMU Solutions LLC, where I lead development of web applications and automation tools for online communities. I have experience building full-stack applications using Next.js, Node.js, and MongoDB, and I am actively seeking opportunities to learn, contribute, and grow in both aviation and technology environments.",
+    "I am a high school student at Saunders Trades & Technical High School with dual enrollment at Embry-Riddle Aeronautical University, focused on software development and aviation. I founded JMU Solutions LLC, where I lead development of web applications and automation tools for online communities. I have experience building full-stack applications using Next.js, Node.js, and PostgreSQL, and I am actively seeking opportunities to learn, contribute, and grow in aviation, technology, and public service.",
   avatarUrl: "/me.jpg",
   skills,
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "jose@josemoranurena.tech",
-    tel: "9142337373",
     social: socialLinks,
   },
   work: [
@@ -71,19 +68,19 @@ export const DATA = {
       href: "https://jmusolutionsllc.com/",
       location: "Yonkers, NY",
       title: "Founder",
-      logoUrl: "https://jmusolutionsllc.com/favicon.ico",
+      logoUrl: "/jmu-solutions-llc.png",
       start: "July 2025",
       end: "Present",
       description:
-        "Founded and lead a small team of developers, managing projects, client communication, and delivery. Built and deployed Northca, a Next.js-based MDT and management platform used by roleplay communities. Developed backend systems using Node.js and MongoDB, including a customizable bot portal for Discord integrations and automation tools that streamline workflows.",
+        "Founded and lead a small team of developers, managing projects, client communication, and delivery. Built and deployed Northca, a Next.js-based MDT and management platform for roleplay communities. Developed backend systems using Node.js and MongoDB, including a customizable Discord bot portal and automation tools to streamline workflows.",
     },
     {
       company: "Civil Air Patrol",
-      href: "#",
+      href: "https://cap.gov/",
       location: "Scarsdale, NY",
       title: "Cadet",
       logoUrl:
-        "https://pbs.twimg.com/profile_images/1542585699177795586/cQupXA--_400x400.png",
+        "/civil-air-patrol.png",
       start: "September 2024",
       end: "December 2025",
       description:
@@ -92,11 +89,11 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Saunders Trades & Technical High School",
+      school: "Saunders Trades and Technical High School",
       href: "https://www.yonkerspublicschools.org/o/saunders",
       degree: "High School Student",
       logoUrl:
-        "https://pbs.twimg.com/profile_images/1059496856856727552/jyD6Z5BA_400x400.jpg",
+        "/saunders-trades-and-technical-high-school.png",
       start: "2025",
       end: "2029",
     },
@@ -105,7 +102,7 @@ export const DATA = {
       href: "https://erau.edu/",
       degree: "Dual Enrollment",
       logoUrl:
-        "https://upload.wikimedia.org/wikipedia/en/b/be/Embry-Riddle_Aeronautical_University_seal.svg",
+        "/embry-riddle-aeronautical-university.svg",
       start: "2025",
       end: "Present",
     },
@@ -114,7 +111,7 @@ export const DATA = {
       href: "https://frederick.edu/",
       degree: "Coursework",
       logoUrl:
-        "https://yt3.googleusercontent.com/hj11erBroF0Trz7s5zLv8iGwXjgxZjMvM8Gxsn7_Tdbs1ybVdHymW6fiXQ7fkUYZa2TBKs0FIQ=s900-c-k-c0x00ffffff-no-rj",
+        "/frederick-community-college.jpg",
       start: "May 2025",
       end: "August 2025",
     },
@@ -129,7 +126,7 @@ export const DATA = {
         "The website for Ducky, a multipurpose bot focused on seamlessly integrating Discord and ERLC server automation for effortless management.",
       technologies: ["Next.js", "REST APIs"],
       image:
-        "https://mintcdn.com/duckybot/fesTS0cjog06BpCU/icons/Ducky.svg?fit=max&auto=format&n=fesTS0cjog06BpCU&q=85&s=9a1f4a4585b5f3d4e0e178d19dda560e",
+        "/ducky.svg",
     },
     {
       title: "Northca Systems",
@@ -140,7 +137,39 @@ export const DATA = {
         "A web-based CAD and management system built with Next.js for roleplay communities, supporting real-time operations and user management.",
       technologies: ["Next.js", "Supabase"],
       image:
-        "https://media.discordapp.net/attachments/1427773423286878279/1484989732252553546/Screenshot_2026-03-21_at_14.58.57.png?ex=69c03bf5&is=69beea75&hm=ff9651951ed3fbfd9fd1f9844b321482afca894fbb0c2e942dfef3d7bca32d19&=&format=webp&quality=lossless&width=1688&height=1570",
+        "/northca-systems.png",
     },
   ],
+  organizations: [
+    {
+      name: "Club America at Saunders Trades and Technical High School",
+      href: "https://clubamerica.com/",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "Founder and President of the Club America chapter at Saunders, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
+      image:
+        "/club-america-at-saunders.jpg",
+    }
+  ],
+  awards: [
+    {
+      title: "Certificate of Special Congressional Recognition",
+      href: "#",
+      date: "May 29, 2025",
+      description:
+        "Awarded by U.S. Representative George Latimer for promoting to Cadet Staff Sergeant in Civil Air Patrol, the U.S. Air Force Auxiliary.",
+      image:
+        "/united-states-congress.svg",
+    },
+    {
+      title: "Meta Back-End Developer Specialization",
+      href: "https://www.coursera.org/account/accomplishments/specialization/certificate/5MTVZN7LBDCA",
+      date: "September 25, 2023",
+      description:
+        "Completed the Meta Back-End Developer specialization on Coursera, a course preparing learners for an entry-level career as a back-end developer.",
+      image:
+        "/coursera.png",
+    }
+  ]
 } as const;
