@@ -33,7 +33,7 @@ const socialLinks = {
     icon: Icons.x,
     navbar: true,
   },
-  Capipedia: {
+  CAPipedia: {
     name: "CAPipedia",
     url: "https://capipedia.cap.gov/wiki/User:JMoranUrena19",
     icon: Icons.capipedia,
