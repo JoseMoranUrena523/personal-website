@@ -123,7 +123,7 @@ export const DATA = {
       dates: "2026 - Present",
       active: true,
       description:
-        "The website for Ducky, a multipurpose bot focused on seamlessly integrating Discord and ERLC server automation for effortless management.",
+        "The website for Ducky, a multipurpose bot focused on seamlessly integrating Discord and ER:LC server automation for effortless management.",
       technologies: ["Next.js", "REST APIs"],
       image:
         "/ducky.svg",
