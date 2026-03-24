@@ -126,7 +126,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <SectionHeading>Skills</SectionHeading>
+            <SectionHeading>Technical Skills</SectionHeading>
           </BlurFade>
           <div className="flex flex-wrap gap-2">
             {DATA.skills.map((skill, id) => (
