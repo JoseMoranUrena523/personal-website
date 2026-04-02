@@ -64,6 +64,17 @@ export const DATA = {
   },
   work: [
     {
+      company: "Turning Point USA",
+      href: "https://tpusa.com/",
+      location: "Yonkers, NY",
+      title: "Campus Coordinator",
+      logoUrl: "/turning-point-usa.jpg",
+      start: "April 2026",
+      end: "Present",
+      description:
+        "Serving as a Campus Coordinator for Turning Point USA, engaging students in conversations about voter registration and voting status to support campus outreach efforts. Assisting with voter engagement initiatives, promoting civic participation, and helping track student interactions and organizing activities to support turnout and campaign goals.",
+    },
+    {
       company: "JMU Solutions LLC",
       href: "https://jmusolutionsllc.com/",
       location: "Yonkers, NY",
