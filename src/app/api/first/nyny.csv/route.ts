@@ -47,7 +47,9 @@ export async function GET() {
       ),
     ];
 
-    return new NextResponse(csvLines.join("\n"), {
+    const csvString = csvLines.join("\n");
+
+    return new NextResponse(csvString, {
       status: 200,
       headers: {
         "Content-Type": "text/csv",
