@@ -50,8 +50,10 @@ export async function GET() {
     return new NextResponse(csvLines.join("\n"), {
       status: 200,
       headers: {
-        "Content-Type": "text/csv; charset=utf-8",
-        "Cache-Control": "no-store",
+        "Content-Type": "text/csv",
+        "Content-Disposition": `attachment; filename="nyny_rankings_${season}.csv"`,
+        "Content-Length": Buffer.byteLength(csvString).toString(),
+        "Cache-Control": "no-store"
       },
     });
   } catch (error) {
