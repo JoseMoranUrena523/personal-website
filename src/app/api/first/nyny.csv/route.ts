@@ -14,7 +14,7 @@ function getAuthHeader() {
   const username = "jmoranurena";
   const token = "fd0c2eb1-1950-4916-8f67-9b7e04696515";
 
-  return "Basic " + Buffer.from(`${username}:${token}`).toString("base64");
+  return "Basic " + btoa(`${username}:${token}`);
 }
 
 export async function GET() {
@@ -32,7 +32,7 @@ export async function GET() {
 
     if (!res.ok) {
       const text = await res.text();
-      return new NextResponse(text || "Failed to fetch FIRST API", {
+      return new NextResponse(`FIRST API Error: ${text}`, {
         status: 502,
       });
     }
@@ -53,8 +53,7 @@ export async function GET() {
       status: 200,
       headers: {
         "Content-Type": "text/csv",
-        "Content-Disposition": `attachment; filename="nyny_rankings_${season}.csv"`,
-        "Content-Length": Buffer.byteLength(csvString).toString(),
+        "Content-Disposition": `attachment; filename="nyny.csv"`,
         "Cache-Control": "no-store"
       },
     });
