@@ -140,6 +140,17 @@ export const DATA = {
         "/ducky.svg",
     },
     {
+      title: "The Saunders Droid Factory",
+      href: "https://www.instagram.com/saundersdroidfactory",
+      dates: "2026 Season",
+      active: false,
+      description:
+        "Led match scouting and data analysis for FIRST Robotics Competition events, supporting alliance selection and real-time strategy decisions for Team 2344.",
+      technologies: ["Data Analysis", "Strategic Thinking", "Team Collaboration"],
+      image:
+        "/sds2344.png",
+    },
+    {
       title: "Northca Systems",
       href: "https://northca.dev/",
       dates: "2025 - Present",
