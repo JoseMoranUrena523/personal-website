@@ -148,7 +148,7 @@ export const DATA = {
         "Led match scouting and data analysis for FIRST Robotics Competition events, supporting alliance selection and real-time strategy decisions for Team 2344.",
       technologies: ["Data Analysis", "Strategic Thinking", "Team Collaboration"],
       image:
-        "/sds2344.png",
+        "/sds2344.JPG",
     },
     {
       title: "Northca Systems",
