@@ -145,8 +145,8 @@ export const DATA = {
       dates: "2026 Season",
       active: false,
       description:
-        "Led match scouting and data analysis for FIRST Robotics Competition events, supporting alliance selection and real-time strategy decisions for Team 2344.",
-      technologies: ["Data Analysis", "Strategic Thinking", "Team Collaboration"],
+        "Conducted match scouting and data analysis during Week 6 in FIRST NYC, supporting alliance selection and real-time strategy decisions for Team 2344.",
+      technologies: ["Data Analysis", "Strategic Thinking"],
       image:
         "/sds2344.JPG",
     },
