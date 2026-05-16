@@ -81,7 +81,7 @@ export const DATA = {
       title: "Founder",
       logoUrl: "/jmu-solutions-llc.png",
       start: "July 2025",
-      end: "Present",
+      end: "May 2026",
       description:
         "Founded and lead a small team of developers, managing projects, client communication, and delivery. Built and deployed Northca, a Next.js-based MDT and management platform for roleplay communities. Developed backend systems using Node.js and MongoDB, including a customizable Discord bot portal and automation tools to streamline workflows.",
     },
