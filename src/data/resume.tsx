@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
@@ -11,7 +10,6 @@ const skills = [
   { name: "Next.js", icon: NextjsIconDark },
   { name: "TypeScript", icon: Typescript },
   { name: "Node.js", icon: Nodejs },
-  { name: "PostgreSQL", icon: Postgresql },
 ] as const;
 
 const socialLinks = {
@@ -153,8 +151,8 @@ export const DATA = {
     {
       title: "Northca Systems",
       href: "https://northca.dev/",
-      dates: "2025 - Present",
-      active: true,
+      dates: "July 2025 - April 2026",
+      active: false,
       description:
         "A web-based CAD and management system built with Next.js for roleplay communities, supporting real-time operations and user management.",
       technologies: ["Next.js", "Supabase"],
