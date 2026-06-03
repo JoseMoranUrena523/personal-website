@@ -62,17 +62,6 @@ export const DATA = {
   },
   work: [
     {
-      company: "Turning Point USA",
-      href: "https://tpusa.com/",
-      location: "Yonkers, NY",
-      title: "Campus Coordinator",
-      logoUrl: "/turning-point-usa.jpg",
-      start: "April 2026",
-      end: "Present",
-      description:
-        "Serving as a Campus Coordinator for Turning Point USA, engaging students in conversations about voter registration and voting status to support campus outreach efforts. Assisting with voter engagement initiatives, promoting civic participation, and helping track student interactions and organizing activities to support turnout and campaign goals.",
-    },
-    {
       company: "JMU Solutions LLC",
       href: "https://jmusolutionsllc.com/",
       location: "Yonkers, NY",
@@ -81,7 +70,7 @@ export const DATA = {
       start: "July 2025",
       end: "May 2026",
       description:
-        "Founded and lead a small team of developers, managing projects, client communication, and delivery. Built and deployed Northca, a Next.js-based MDT and management platform for roleplay communities. Developed backend systems using Node.js and MongoDB, including a customizable Discord bot portal and automation tools to streamline workflows.",
+        "Founded and led a small team of developers, managing projects, client communication, and delivery. Built and deployed Northca, a Next.js-based MDT and management platform for roleplay communities. Developed backend systems using Node.js and MongoDB, including a customizable Discord bot portal and automation tools to streamline workflows.",
     },
     {
       company: "Civil Air Patrol",
@@ -93,7 +82,7 @@ export const DATA = {
       start: "September 2024",
       end: "December 2025",
       description:
-        "Served as a Cadet Master Sergeant in the U.S. Air Force Auxiliary. Participated in aviation training including orientation flights in a Cessna 182 and a cadet airlift mission aboard a U.S. Air Force C-17. Recommended for the Cadet Wings flight scholarship program, demonstrating leadership and commitment to aviation.",
+        "Served as a Cadet Master Sergeant in the U.S. Air Force Auxiliary. Participated in military drill and aviation training including orientation flights in a Cessna 182. Recommended for the Cadet Wings flight scholarship program, demonstrating leadership and commitment to aviation.",
     },
   ],
   education: [
@@ -126,17 +115,6 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Ducky",
-      href: "https://duckybot.xyz",
-      dates: "2026 - Present",
-      active: true,
-      description:
-        "The website for Ducky, a multipurpose bot focused on seamlessly integrating Discord and ER:LC server automation for effortless management.",
-      technologies: ["Next.js", "REST APIs"],
-      image:
-        "/ducky.svg",
-    },
     {
       title: "The Saunders Droid Factory",
       href: "https://www.instagram.com/saundersdroidfactory",
