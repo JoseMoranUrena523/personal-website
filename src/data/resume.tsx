@@ -153,10 +153,10 @@ export const DATA = {
   awards: [
     {
       title: "Leadership Participation Award",
-      href: "#",
+      href: "https://www.instagram.com/p/DZYShh_lTUB/",
       date: "June 9, 2026",
       description:
-        "Awarded by the Police Athletic League of Yonkers, Mayor Mike Spano, and New York State Senator Andrea Stewart-Cousins for participation and achievement in the 2026 Leadership Day essay contest.",
+        "Awarded by the Police Athletic League of Yonkers, Mayor Mike Spano, and New York State Senator Andrea Stewart-Cousins as one of ten students recognized in the 2026 Leadership Day essay contest.",
       image:
         "/pal-logo.jpeg",
     },
