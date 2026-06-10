@@ -25,6 +25,12 @@ const socialLinks = {
     icon: Icons.linkedin,
     navbar: true,
   },
+  Instagram: {
+    name: "Instagram",
+    url: "https://www.instagram.com/j_moranurena/",
+    icon: Icons.instagram,
+    navbar: true,
+  },
   X: {
     name: "X",
     url: "https://x.com/JoseMoranUrena",
@@ -153,7 +159,7 @@ export const DATA = {
   awards: [
     {
       title: "Leadership Participation Award",
-      href: "https://www.instagram.com/p/DZYShh_lTUB/",
+      href: "#",
       date: "June 9, 2026",
       description:
         "Awarded by the Police Athletic League of Yonkers, Mayor Mike Spano, and New York State Senator Andrea Stewart-Cousins as one of ten students recognized in the 2026 Leadership Day essay contest.",
