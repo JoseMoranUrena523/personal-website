@@ -25,6 +25,7 @@ const leadershipImages = [
   "/yonkers-pal-certificate.jpg",
   "/office-of-the-mayor-certificate.jpg",
   "/state-senate-certificate.jpg",
+  "/state-assembly-certificate.jpg"
 ];
 
 export default function AwardsSection() {
