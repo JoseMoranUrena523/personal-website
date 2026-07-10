@@ -85,8 +85,8 @@ export const DATA = {
       title: "Cadet",
       logoUrl:
         "/civil-air-patrol.png",
-      start: "September 2024",
-      end: "December 2025",
+      start: "2024",
+      end: "2026, 2026 - Present",
       description:
         "Served as a Cadet Master Sergeant in the U.S. Air Force Auxiliary. Participated in military drill and aviation training including orientation flights in a Cessna 182. Recommended for the Cadet Wings flight scholarship program, demonstrating leadership and commitment to aviation.",
     },
