@@ -264,14 +264,9 @@ export default function AwardsSection() {
                   </DialogContent>
                 </Dialog>
               ) : (
-                <Link
-                  href={award.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-start justify-between gap-x-3"
-                >
+                <div className="flex items-start justify-between gap-x-3">
                   {content}
-                </Link>
+                </div>
               )}
             </BlurFade>
           );
