@@ -176,13 +176,13 @@ export const DATA = {
         "/united-states-congress.svg",
     },
     {
-      title: "Meta Back-End Developer Specialization",
-      href: "https://www.coursera.org/account/accomplishments/specialization/certificate/5MTVZN7LBDCA",
-      date: "September 25, 2023",
+      title: "Wright Brothers Award",
+      href: "#",
+      date: "May 7, 2025",
       description:
-        "Completed the Meta Back-End Developer specialization on Coursera, a course preparing learners for an entry-level career as a back-end developer.",
+        "Awarded by Civil Air Patrol for passing the Wright Brothers milestone and promoting to Cadet Staff Sergeant.",
       image:
-        "/coursera.png",
+        "/civil-air-patrol.png",
     }
   ]
 } as const;
