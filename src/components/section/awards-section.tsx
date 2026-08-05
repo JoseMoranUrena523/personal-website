@@ -19,6 +19,7 @@ import {
 const BLUR_FADE_DELAY = 0.04;
 
 const CONGRESSIONAL_TITLE = "Certificate of Special Congressional Recognition";
+const WRIGHT_BROTHERS_TITLE = "Wright Brothers Award";
 const LEADERSHIP_TITLE = "Leadership Participation Award";
 
 const leadershipImages = [
@@ -30,6 +31,7 @@ const leadershipImages = [
 
 export default function AwardsSection() {
   const [openCongressional, setOpenCongressional] = useState(false);
+  const [openWrightBrothers, setOpenWrightBrothers] = useState(false);
   const [openLeadership, setOpenLeadership] = useState(false);
   const [leadershipImage, setLeadershipImage] = useState(0);
 
@@ -52,6 +54,7 @@ export default function AwardsSection() {
       <div className="flex flex-col gap-8">
         {DATA.awards.map((award, index) => {
           const isCongressional = award.title === CONGRESSIONAL_TITLE;
+          const isWrightBrothers = award.title === WRIGHT_BROTHERS_TITLE;
           const isLeadership = award.title === LEADERSHIP_TITLE;
 
           const content = (
@@ -119,6 +122,50 @@ export default function AwardsSection() {
                       <Image
                         src="/certificate-of-special-congressional-recognition.png"
                         alt="Certificate of Special Congressional Recognition"
+                        width={1600}
+                        height={1200}
+                        className="max-h-[75vh] w-auto rounded-lg object-contain shadow"
+                        priority
+                      />
+                    </div>
+                  </DialogContent>
+                </Dialog>
+                            ) : isWrightBrothers ? (
+                <Dialog
+                  open={openWrightBrothers}
+                  onOpenChange={setOpenWrightBrothers}
+                >
+                  <DialogTrigger asChild>
+                    <button
+                      type="button"
+                      className="group flex w-full items-start justify-between gap-x-3 text-left"
+                    >
+                      {content}
+                    </button>
+                  </DialogTrigger>
+
+                  <DialogContent className="max-h-[90vh] max-w-4xl overflow-hidden p-6">
+                    <DialogTitle className="sr-only">
+                      {award.title}
+                    </DialogTitle>
+
+                    <DialogDescription className="sr-only">
+                      Official Wright Brothers Award certificate.
+                    </DialogDescription>
+
+                    <button
+                      type="button"
+                      onClick={() => setOpenWrightBrothers(false)}
+                      className="absolute right-3 top-3 z-20 rounded-full border bg-background/80 p-2 backdrop-blur"
+                      aria-label="Close"
+                    >
+                      <X className="h-4 w-4" />
+                    </button>
+
+                    <div className="flex max-h-[75vh] items-center justify-center overflow-auto">
+                      <Image
+                        src="/wright-brothers-award.png"
+                        alt="Wright Brothers Award Certificate"
                         width={1600}
                         height={1200}
                         className="max-h-[75vh] w-auto rounded-lg object-contain shadow"
