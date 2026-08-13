@@ -146,6 +146,16 @@ export const DATA = {
   ],
   organizations: [
     {
+      name: "Yonkers Teen Republicans",
+      href: "https://instagram.com/yonkersteengop/",
+      dates: "2026 - 2027",
+      active: true,
+      description:
+        "Vice-Chair of the Yonkers Teen Republicans, assisting Chairman Al Torres in leading the youth charter of the Yonkers Republican Party and building relationships with Republican candidates in the greater Yonkers area.",
+      image:
+        "/yonkers-teen-republicans.jpg",
+    },
+    {
       name: "Club America at Saunders Trades and Technical High School",
       href: "https://clubamerica.com/",
       dates: "2025 - Present",
