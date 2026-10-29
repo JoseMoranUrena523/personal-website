@@ -156,14 +156,14 @@ export const DATA = {
         "/yonkers-teen-republicans.jpg",
     },
     {
-      name: "Club America at Saunders Trades and Technical High School",
+      name: "Yonkers Activism Hub",
       href: "https://clubamerica.com/",
       dates: "2025 - Present",
       active: true,
       description:
-        "Founder and President of the Club America chapter at Saunders, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
+        "President of the Club America activism hub for the city of Yonkers, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
       image:
-        "/club-america-at-saunders.jpg",
+        "/yonkers-activism-hub.jpg",
     }
   ],
   awards: [
