@@ -144,7 +144,7 @@ export const DATA = {
       dates: "September 2026 - Present",
       active: true,
       description:
-        "President of the Club America activism hub for the city of Yonkers, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
+        "President of the Club America activism hub for the city of Yonkers, previously Club America at Saunders from December 2025 to September 2026, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
       image: "/yonkers-activism-hub.jpg",
     },
   ],
