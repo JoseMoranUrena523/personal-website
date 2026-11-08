@@ -42,7 +42,7 @@ const socialLinks = {
     url: "https://qrz.com/db/KE2IOZ",
     icon: Icons.qrz,
     navbar: true,
-  }
+  },
   email: {
     name: "Send Email",
     url: "mailto:jose@josemoranurena.tech",
