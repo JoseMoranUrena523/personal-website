@@ -68,17 +68,6 @@ export const DATA = {
   },
   work: [
     {
-      company: "Turning Point Action",
-      href: "https://tpaction.com/",
-      location: "New Hampshire",
-      title: "Commit 100 Volunteer",
-      logoUrl: "/turning-point-action.png",
-      start: "October 2026",
-      end: "November 2026",
-      description:
-        "Volunteered with Turning Point Action’s Commit 100 program, chasing ballots in Merrimack and Manchester, and working directly with the community in Hillsborough to help drive high voter turnout.",
-    },
-    {
       company: "Civil Air Patrol",
       href: "https://cap.gov/",
       location: "Syracuse, NY",
@@ -88,6 +77,17 @@ export const DATA = {
       end: "Present",
       description:
         "Serving as a Cadet Master Sergeant in the U.S. Air Force Auxiliary. Completed orientation flights in a Cessna 182 and was recommended for the Cadet Wings flight scholarship program. Also served as a Weather Officer for the 2025 CAP/NASA Aviation Weather Mission, submitting atmospheric observations through the GLOBE Observer application.",
+    },
+    {
+      company: "Turning Point Action",
+      href: "https://tpaction.com/",
+      location: "New Hampshire",
+      title: "Commit 100 Volunteer",
+      logoUrl: "/turning-point-action.png",
+      start: "October 2026",
+      end: "November 2026",
+      description:
+        "Volunteered with Turning Point Action’s Commit 100 program, chasing ballots in Merrimack and Manchester, and working directly with the community in Hillsborough to help drive high voter turnout.",
     },
   ],
   education: [
@@ -130,15 +130,6 @@ export const DATA = {
   ],
   organizations: [
     {
-      name: "Yonkers Teen Republicans",
-      href: "https://instagram.com/yonkersteengop/",
-      dates: "August 2026 - Present",
-      active: true,
-      description:
-        "Vice-Chair of the Yonkers Teen Republicans, assisting Chairman Al Torres in leading the youth charter of the Yonkers Republican Party and building relationships with Republican candidates in the greater Yonkers area.",
-      image: "/yonkers-teen-republicans.jpg",
-    },
-    {
       name: "Yonkers Activism Hub",
       href: "https://clubamerica.com/",
       dates: "September 2026 - Present",
@@ -146,6 +137,15 @@ export const DATA = {
       description:
         "President of the Club America activism hub for the city of Yonkers, previously Club America at Saunders from December 2025 to September 2026, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
       image: "/yonkers-activism-hub.jpg",
+    },
+    {
+      name: "Yonkers Teen Republicans",
+      href: "https://instagram.com/yonkersteengop/",
+      dates: "August 2026 - Present",
+      active: true,
+      description:
+        "Vice-Chair of the Yonkers Teen Republicans, assisting Chairman Al Torres in leading the youth charter of the Yonkers Republican Party and building relationships with Republican candidates in the greater Yonkers area.",
+      image: "/yonkers-teen-republicans.jpg",
     },
   ],
   awards: [
