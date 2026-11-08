@@ -73,8 +73,8 @@ export const DATA = {
       location: "New Hampshire",
       title: "Commit 100 Volunteer",
       logoUrl: "/turning-point-action.png",
-      start: "2026",
-      end: "2026",
+      start: "October 2026",
+      end: "November 2026",
       description:
         "Volunteered with Turning Point Action’s Commit 100 program, chasing ballots in Merrimack and Manchester, and working directly with the community in Hillsborough to help drive high voter turnout.",
     },
