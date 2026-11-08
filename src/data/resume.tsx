@@ -66,7 +66,7 @@ export const DATA = {
       href: "https://tpaction.com/",
       location: "New Hampshire",
       title: "Commit 100 Volunteer",
-      logoUrl: "/turning-point-action.jpg",
+      logoUrl: "/turning-point-action.png",
       start: "2026",
       end: "2026",
       description:
