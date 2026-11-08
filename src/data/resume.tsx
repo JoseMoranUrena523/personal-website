@@ -52,7 +52,7 @@ export const DATA = {
   description:
     "Civil Air Patrol cadet and Turning Point Action Commit 100 volunteer, focused on aviation, technology, and civic engagement.",
   summary:
-    "I am a high school sophomore at Saunders Trades and Technical High School with a strong interest in aviation, technology, and civic engagement. Through Civil Air Patrol, I have developed leadership, aviation, and teamwork skills as a Cadet Master Sergeant, and I am an Amateur Extra Class amateur radio operator (KE2IOZ). I am President of Yonkers Activism Hub and Vice-Chair of Yonkers Teen Republicans, and I volunteered with Turning Point Action's Commit 100 program to chase ballots and help drive voter turnout. I am always looking for opportunities to learn and contribute.",
+    "I am a high school sophomore at Saunders Trades and Technical High School with a strong interest in aviation, technology, and civic engagement. Through Civil Air Patrol, I have developed leadership, aviation, and teamwork skills as a Cadet Master Sergeant, and I am an Amateur Extra Class amateur radio operator <a href='https://www.qrz.com/db/KE2IOZ' target='_blank'>(KE2IOZ)</a>. I am President of Yonkers Activism Hub and Vice-Chair of Yonkers Teen Republicans, and I volunteered with Turning Point Action's Commit 100 program to chase ballots and help drive voter turnout. I am always looking for opportunities to learn and contribute.",
   avatarUrl: "/me.jpg",
   skills,
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -66,11 +66,11 @@ export const DATA = {
       href: "https://tpaction.com/",
       location: "New Hampshire",
       title: "Commit 100 Volunteer",
-      logoUrl: "/turning-point-action.png",
+      logoUrl: "/turning-point-action.jpg",
       start: "2026",
       end: "2026",
       description:
-        "Volunteered with Turning Point Action's Commit 100 program, chasing ballots in Merrimack and Manchester, and working directly with the community in Hillsborough to help drive high voter turnout.",
+        "Volunteered with Turning Point Action’s Commit 100 program, chasing ballots in Merrimack and Manchester, and working directly with the community in Hillsborough to help drive high voter turnout.",
     },
     {
       company: "Civil Air Patrol",
