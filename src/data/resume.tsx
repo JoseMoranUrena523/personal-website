@@ -96,15 +96,15 @@ export const DATA = {
       href: "https://www.yonkerspublicschools.org/o/saunders",
       degree: "Electronic and Computer Circuitry",
       logoUrl: "/saunders-trades-and-technical-high-school.png",
-      start: "2025",
-      end: "2029",
+      start: "September 2025",
+      end: "June 2029",
     },
     {
       school: "Embry-Riddle Aeronautical University",
       href: "https://erau.edu/",
       degree: "Dual Enrollment",
       logoUrl: "/embry-riddle-aeronautical-university.svg",
-      start: "2025",
+      start: "March 2026",
       end: "Present",
     },
     {
@@ -132,7 +132,7 @@ export const DATA = {
     {
       name: "Yonkers Teen Republicans",
       href: "https://instagram.com/yonkersteengop/",
-      dates: "2026 - 2027",
+      dates: "August 2026 - Present",
       active: true,
       description:
         "Vice-Chair of the Yonkers Teen Republicans, assisting Chairman Al Torres in leading the youth charter of the Yonkers Republican Party and building relationships with Republican candidates in the greater Yonkers area.",
@@ -141,7 +141,7 @@ export const DATA = {
     {
       name: "Yonkers Activism Hub",
       href: "https://clubamerica.com/",
-      dates: "2025 - Present",
+      dates: "September 2026 - Present",
       active: true,
       description:
         "President of the Club America activism hub for the city of Yonkers, gaining leadership experience by planning and organizing events and engaging students in civic and community-focused discussions.",
